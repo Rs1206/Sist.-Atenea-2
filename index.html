@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,5 +9,66 @@
 <body>
     <h1>Videojuego</h1>
     
+=======
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <h2>Datos personales basicos</h2>
+
+        <label for="nombreUsuario">Nombre Usuario: </label>
+        <input type="text" id="" name="nombre" placeholder="Ej: Juan Perez">
+
+        <br><br>
+
+        <label for="correoUsuario">Correo electronico: </label>
+        <input type="email" id="correoUsuario" name="email" placeholder="correo@example.com" required>
+    </form>
+    <form action="">
+        <h2>Diferentes Tipos de Inputs</h2>
+
+        <label for="pass">Contraseña: </label>
+        <input type="password" name="clave" id="pass">
+        <br><br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="18" max="99">
+        <br><br>
+        <label for="nacimiento">Fecha de Nacimiento: </label>
+        <input type="date" id="nacimiento" name="fecha_nacimiento">
+        <br><br>
+        <p>Selecciona tu plan: </p>
+        <input type="radio" name="plan" id="planGratis" value="gratis">
+        <label for="planGratis">Plan Gratis</label>
+        <input type="radio" name="plan" id="planPro" value="pro">
+        <label for="planPro">Plan Pro</label>
+        <input type="radio" name="plan" id="planPremium" value="premium">
+        <label for="planPremium">Plan Premium</label>
+        <br><br>
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">Acepto terminos y condiciones</label>
+
+        <button type="submit">Enviar formulario</button>
+        <button type="reset">Limpiar formulario</button>
+        <form action="">
+            <h2>Textarea y Selects</h2>
+            <label for="pais">¿De que pais nos visita?</label>
+            <select name="pais" id="pais">
+                <option value="">--SELECCIONE UNA OPCION--</option>
+                <option value="CO">Colombia</option>
+                <option value="PO">Portugal</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">Mexico</option>
+            </select>
+            <br><br>
+            <label for="mensaje">Dejanos tu opinion: </label>
+            <br>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe aqui..."></textarea>
+        </form>
+    </form>
+>>>>>>> d7be51b54a110de7f0d543272b4126f274d3d7c6
 </body>
 </html>

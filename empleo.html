@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleo</title>
+</head>
+<body>
+    <form action="">
+        <h2>Datos Personales</h2>
+        <label for="nombres">Nombres</label>
+        <input type="text" id="nombres" name="nombres" placeholder="Ingrese sus nombres">
+        <br><br>
+        <label for="nombre">Apellidos</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese sus apellidos">
+        <br><br>
+        <label for="correoUsuario">Correo Electronico</label>
+        <input type="email" id="correoUsuario" name="email" placeholder="example@.com" required>
+        <br><br>
+        <label for="disponibilidad">Fecha disponibilidad</label>
+        <input type="date" id="disponibilidad" name="fecha_disponibilidad">
+        <br><br>
+        <p>Selecciona tu nivel de estudio: </p>
+        <select name="nivel" id="nivel">
+                <option value="">--SELECCIONE UNA OPCION--</option>
+                <option value="BA">Bachiller</option>
+                <option value="TE">Tecnico</option>
+                <option value="PR">Profesional</option>
+            </select>
+        <br><br>
+        <label for="experiencia">Años de experiencia</label>
+        <input type="number" name="experiencia" id="experiencia" min="0" max="50">
+        <br><br>
+        <p>Selecciona lenguajes de programacion</p>
+        <input type="checkbox" id="phyton" name="phyton" required>
+        <label for="phyton">Phyton</label>
+        <input type="checkbox" id="javascript" name="javascript" required>
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" id="css" name="css" required>
+        <label for="css">CSS</label>
+        <br><br>
+        <p>Carta de presentacion</p>
+        <textarea name="carta" id="carta" rows="4" cols="50" placeholder="Escribe aqui..."></textarea>
+        <br><br>
+        <button type="submit">Enviar carta de empleo</button>
+        <button type="reset">Limpiar todo</button>
+    </form>
+</body>
+</html>
