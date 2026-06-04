@@ -1,0 +1,43 @@
+* {
+    font-size: 1.2rem;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+.syle-p {
+    color: yellow;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* selector de clase */
+.titulo-secundario {
+    color: aquamarine;
+    text-decoration: underline;
+}
+.test {
+    font: 1em sans-serif;
+}
+
+/* Selector de ID */
+#parrafo-unico {
+    color: black;
+    background-color: white;
+}
+
+.caja-modelo {
+    width: 50%;
+    background-color: green;
+    border: 5px solid yellow;
+    padding: 10px;
+    margin: 4px 10px 40px 10px;
+    border-radius: 35px;
+}

@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+.caja {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 450px;
+    height: 500px;
+    position: static;
+    justify-content: center;
+    justify-items: center;
+    background-color: black;
+
+}
+.car-2 {
+    color: aliceblue;
+}
+img {
+    border-radius: 25px;
+}
+div {
+    width: 75%;
+    background-color: white;
+    border: 5px solid ;
+    padding: 10px;
+    margin: 4px 10px 40px 10px;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: white;
+}
+.boton-whatsapp{
+    position: fixed;
+    bottom: 2px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 11px;
+    border-radius: 20px;
+    width: 100px;
+    border-width: 1px;
+    transition: all 0.2s ease;
+    height: 45px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.boton-whatsapp:hover {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/020/502/472/non_2x/lamborghini-brand-logo-car-symbol-white-design-italian-automobile-illustration-with-black-background-free-vector.jpg);
+}
+/* .caja:hover{
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/020/502/472/non_2x/lamborghini-brand-logo-car-symbol-white-design-italian-automobile-illustration-with-black-background-free-vector.jpg);
+}
+ */
